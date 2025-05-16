@@ -1,12 +1,58 @@
-# React + Vite
+Todo List React.js
+A simple and intuitive Todo List application built with React.js. This project helps users efficiently manage their daily tasks with an interactive UI, providing CRUD operations for todos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Add, edit, and delete tasks
+Mark tasks as completed
+Filter tasks (All, Active, Completed)
+Responsive design for mobile and desktop
+Local storage support for persistent data
+Installation Instructions
+Clone the repository:
 
-Currently, two official plugins are available:
+bash
+git clone https://github.com/shreyaillur14/Todo_list_reactjs.git
+cd Todo_list_reactjs
+Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+npm install
+Start the development server:
 
-## Expanding the ESLint configuration
+bash
+npm start
+The app will run on http://localhost:3000.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Usage Instructions
+Enter a task in the input field and press "Add" to create a new todo.
+Click on a task to mark it as completed.
+Use the edit and delete icons to modify or remove a task.
+Use filter buttons to show all, active, or completed tasks.
+Technologies Used
+React.js (Frontend)
+JavaScript (Logic)
+CSS (Styling)
+HTML (Markup)
+[Optional: Any additional libraries used]
+Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository
+Create a new branch (git checkout -b feature/your-feature)
+Commit your changes (git commit -m 'Add some feature')
+Push to the branch (git push origin feature/your-feature)
+Open a Pull Request
+Deployment
+The application can be deployed using:
+
+Vercel, Netlify, or GitHub Pages for static hosting.
+To create a production build:
+bash
+npm run build
+Upload the contents of the build folder to your preferred hosting platform.
+Future Scope
+User authentication for personalized todo lists
+Integration with a backend/database for cloud storage
+Drag-and-drop task reordering
+Due dates and reminders
+Dark mode and theme customization
