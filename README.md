@@ -39,7 +39,7 @@ A simple and intuitive Todo List application built with React.js. This project a
 
 ## Deployment
 
-This project is deployed on Vercel. You can view the live version at todo-list-reactjs-ecru.vercel.app
+This project is deployed on Vercel. You can view the live version at https://todo-list-reactjs-ecru.vercel.app/
  .
 
 ## Future Improvements
